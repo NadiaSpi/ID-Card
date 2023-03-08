@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+    
+    /*background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWE2MDcwZTIyYjE1ZGNhYjljNTA5ZGUwMzAzYThhNzllYzVjNzU1OCZjdD1n/ko7twHhomhk8E/giphy.gif');*/
+    background-color: rgb(248, 198, 206);
+    
+     
+    
+    /*https://w0.peakpx.com/wallpaper/831/953/HD-wallpaper-thunder-lighting-lighting-black-red-thunder.jpg*/
+}
+
+
+
+h5{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: absolute;
+    
+    justify-content: center;
+    
+    
+    
+}
+.container .card{
+    width: 400px;
+    height: 710px;
+    border-radius: 8px;
+    box-shadow:  0 0 15px rgb(255, 255, 255);
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.25s;
+    background-color: rgb(254, 224, 230);
+}
+
+.container .card img{
+    width: 400px;
+    height: 400px;
+    
+   
+    
+    
+}
+.container .card .nadi{
+    font-size: 30px;
+    color: rgb(35, 35, 35);
+    /*color: rgb(163, 13, 38);*/
+
+}
+.edad{
+    font-size: 25px;
+    color: rgb(167, 46, 66);
+    
+}
+
+
+
+.container .card .pcard{
+    padding: 0 1rem;
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(62, 59, 59);
+    text-align: center;
+}
+
+
+
+/*--------Estilos Responsive--------*/
+@media(min-width:300px){
+    .container .card{
+        width: 220px;
+        height: 540px;
+    }
+    
+    .container .card img{
+        width: 220px;
+        height: 220px;
+        
+        
+    }
+    .container .card .nadi{
+        font-size: 20px;
+        
+    
+    }
+    .edad{
+        font-size: 15px;
+        
+    }
+    
+    
+    
+    .container .card .pcard{
+        
+        font-size: 15px;
+        
+    }
+    
+    .mail{
+        max-width: 28px;
+        max-height: 28px;
+        position: absolute;
+        left: 41%;
+        
+    }
+    .linkedin{
+        max-width: 25px;
+        max-height: 25px;
+        position: absolute;
+        left: 51%;
+        
+    }
+   
+}
+
+@media(min-width:480px){
+    .container .card{
+        width: 220px;
+        height: 540px;
+    }
+    
+    .container .card img{
+        width: 220px;
+        height: 220px;
+        
+        
+    }
+    .container .card .nadi{
+        font-size: 20px;
+        
+    
+    }
+    .edad{
+        font-size: 15px;
+        
+    }
+    
+    
+    
+    .container .card .pcard{
+        
+        font-size: 15px;
+        
+    }
+   
+    .mail{
+        max-width: 28px;
+        max-height: 28px;
+        position: absolute;
+        left: 41%;
+        
+    }
+    .linkedin{
+        max-width: 25px;
+        max-height: 25px;
+        position: absolute;
+        left: 51%;
+        
+    }
+    }
+
+
+
+
+
+@media(min-width:768px){
+    .container .card{
+        width: 400px;
+        height: 850px;
+    }
+    
+    .container .card img{
+        width: 400px;
+        height: 400px;
+        
+        
+    }
+    .container .card .nadi{
+        font-size: 30px;
+        
+    
+    }
+    .edad{
+        font-size: 28px;
+        
+    }
+    
+    
+    
+    .container .card .pcard{
+        
+        font-size: 25px;
+        
+    }
+    
+    .mail{
+        max-width: 50px;
+        max-height: 50px;
+        position: absolute;
+        left: 43%;
+        
+    }
+    .linkedin{
+        max-width: 47px;
+        max-height: 47px;
+        position: absolute;
+        left: 53%;
+        
+    }
+ 
+}
+
+@media(min-width:1024px){
+    .container .card{
+        width: 300px;
+        height: 560px;
+    }
+    
+    .container .card img{
+        width: 300px;
+        height: 300px;
+        
+       
+        
+        
+    }
+    .container .card .nadi{
+        font-size: 25px;
+        
+    
+    }
+    .edad{
+        font-size: 20px;
+        
+    }
+    
+    
+    
+    .container .card .pcard{
+        
+        font-size: 15px;
+        
+    }
+    
+    .mail{
+        max-width: 30px;
+        max-height: 30px;
+        position: absolute;
+        left: 46%;
+        
+    }
+    .linkedin{
+        max-width: 27px;
+        max-height: 27px;
+        position: absolute;
+        left: 51%;
+        
+    }
+   
+}
+@media(min-width:1280px){
+   
+    .container .card{
+        width: 400px;
+        height: 720px;
+    }
+    
+	.container .card img{
+        width: 400px;
+        height: 400px;
+        
+       
+        
+        
+    }
+    .container .card .nadi{
+        font-size: 30px;
+        
+    
+    }
+    .edad{
+        font-size: 25px;
+        
+    }
+    
+    
+    
+    .container .card .pcard{
+        
+        font-size: 20px;
+        
+    }
+    .mail{
+        max-width: 32px;
+        max-height: 32px;
+        position: absolute;
+        left: 46%;
+        
+    }
+    .linkedin{
+        max-width: 30px;
+        max-height: 30px;
+        position: absolute;
+        left: 50%;
+        
+    }
+   
+}
+
+  
+ 
+
+
